@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Color Map Prototype</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; transition: background-color 0.5s; }
+        .color-button { padding: 10px 20px; margin: 5px; cursor: pointer; border: none; border-radius: 5px; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Life Color Map</h1>
+    <p>今の気分や、これまでの歩みを色で表現してみましょう。</p>
+    <div>
+        <button class="color-button" style="background-color: #ffcccc; color: #333;" onclick="document.body.style.backgroundColor='#ffcccc'">幼少期</button>
+        <button class="color-button" style="background-color: #ccffcc; color: #333;" onclick="document.body.style.backgroundColor='#ccffcc'">学生時代</button>
+        <button class="color-button" style="background-color: #ccccff; color: #333;" onclick="document.body.style.backgroundColor='#ccccff'">社会人</button>
+        <button class="color-button" style="background-color: #ffffcc; color: #333;" onclick="document.body.style.backgroundColor='#ffffcc'">今</button>
+    </div>
+</body>
+</html>
